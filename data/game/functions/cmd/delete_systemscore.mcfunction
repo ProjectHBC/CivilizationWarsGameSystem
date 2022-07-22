@@ -1,29 +1,29 @@
 #ベースシステム削除
 
 ##タイマー用
-scoreboard objectives remove timer
-scoreboard objectives remove minute
-scoreboard objectives remove second
+execute at @s[tag=Admin] run scoreboard objectives remove timer
+execute at @s[tag=Admin] run scoreboard objectives remove minute
+execute at @s[tag=Admin] run scoreboard objectives remove second
 ##計算用
-scoreboard objectives remove tmpTime
-scoreboard objectives remove division_60
-scoreboard objectives remove 60
-scoreboard objectives remove team_number
-#scoreboard objectives remove team_number_0
-#scoreboard objectives remove sougen_member
-#scoreboard objectives remove janguru_member
+execute at @s[tag=Admin] run scoreboard objectives remove tmpTime
+execute at @s[tag=Admin] run scoreboard objectives remove division_60
+execute at @s[tag=Admin] run scoreboard objectives remove 60
+execute at @s[tag=Admin] run scoreboard objectives remove team_number
+#execute at @s[tag=Admin] run scoreboard objectives remove team_number_0
+#execute at @s[tag=Admin] run scoreboard objectives remove sougen_member
+#execute at @s[tag=Admin] run scoreboard objectives remove janguru_member
 ###numberに変更する？それとも使わない？
-scoreboard objectives remove deathcount
-#scoreboard objectives remove lastcount
-scoreboard objectives remove victory_team
+execute at @s[tag=Admin] run scoreboard objectives remove deathcount
+#execute at @s[tag=Admin] run scoreboard objectives remove lastcount
+execute at @s[tag=Admin] run scoreboard objectives remove victory_team
 
 ##ボスバーを削除
-bossbar remove sys:timer
-bossbar remove sys:begin
+execute at @s[tag=Admin] run bossbar remove sys:timer
+execute at @s[tag=Admin] run bossbar remove sys:begin
 
 ##チームを削除
-team remove sougen
-team remove janguru
+execute at @s[tag=Admin] run team remove sougen
+execute at @s[tag=Admin] run team remove janguru
 
 ##削除メッセージ
 tellraw @a[tag=Admin] {"text": "System -> ベースシステムの削除しました","color": "green"}
@@ -31,3 +31,4 @@ tellraw @a[tag=Admin] {"text": "警告:ベースシステムを再構築する�
 tellraw @a[tag=Admin] {"text": ""}
 tellraw @a[tag=Admin] {"text": "≪reload≫","color": "dark_red","hoverEvent": {"action": "show_text","value": "警告:/reloadを実行します\nサーバーラグが発生する可能性があります"},"clickEvent": {"action": "run_command","value": "/reload"}}
 tellraw @a[tag=Admin] {"text": ""}
+tellraw @s[tag=!Admin] {"text": "System -> 運営タグを持っていないため実行できませんでした","color": "red"}
