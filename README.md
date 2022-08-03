@@ -7,7 +7,7 @@
 [日本語](https://github.com/iruru1111/CivilizationWarsGameSystem/blob/master/README.md)/[English]()<!--README_en.mdを作った時にリンク実装-->
 ## CivilizationWars
 
-このプロジェクトは[Hegadel](https://github.com/iruru1111/CivilizationWarsGameSystem/blob/master/README_jp.md#%E9%96%8B%E7%99%BA%E3%83%81%E3%83%BC%E3%83%A0%E3%82%B3%E3%83%A9%E3%83%9C%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC)によって考案され、[iruru1111](https://github.com/iruru1111/CivilizationWarsGameSystem/blob/master/README_jp.md#%E9%96%8B%E7%99%BA%E3%83%81%E3%83%BC%E3%83%A0%E3%82%B3%E3%83%A9%E3%83%9C%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC)を開発責任者とする[開発チーム](https://github.com/iruru1111/CivilizationWarsGameSystem/blob/master/README_jp.md#%E9%96%8B%E7%99%BA%E3%83%81%E3%83%BC%E3%83%A0%E3%82%B3%E3%83%A9%E3%83%9C%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC)によって作られました。
+このプロジェクトは[Hegadel](https://github.com/iruru1111/CivilizationWarsGameSystem/blob/master/README.md#%E9%96%8B%E7%99%BA%E3%83%81%E3%83%BC%E3%83%A0%E3%82%B3%E3%83%A9%E3%83%9C%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC)によって考案され、[iruru1111](https://github.com/iruru1111/CivilizationWarsGameSystem/blob/master/README.md#%E9%96%8B%E7%99%BA%E3%83%81%E3%83%BC%E3%83%A0%E3%82%B3%E3%83%A9%E3%83%9C%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC)を開発責任者とする[開発チーム](https://github.com/iruru1111/CivilizationWarsGameSystem/blob/master/README.md#%E9%96%8B%E7%99%BA%E3%83%81%E3%83%BC%E3%83%A0%E3%82%B3%E3%83%A9%E3%83%9C%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC)によって作られました。
 
 ## 動作環境
 
