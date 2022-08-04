@@ -39,12 +39,16 @@ execute in game:experimental run setblock 3 300 -2 minecraft:command_block{Comma
 #execute in game:experimental run fill 0 100 -1 4 104 -5 minecraft:barrier hollow
 execute at @a[team=sougen] in game:experimental run gamemode survival @a[team=sougen]
 execute at @a[team=sougen] in game:experimental run clear @a[team=sougen]
+execute at @a[team=sougen] in game:experimental run xp set @a[team=sougen] 0 levels
+execute at @a[team=sougen] in game:experimental run xp set @a[team=sougen] 0 points
 execute at @a[team=sougen] in game:experimental run tp @a[team=sougen] 2 101.5 -3
 execute at @a[team=sougen] in game:experimental run spawnpoint @a[team=sougen] 2 101 -3
 ##ジャングルチーム
 #execute in game:experimental run fill 0 100 1 4 104 5 minecraft:barrier hollow
 execute at @a[team=janguru] in game:experimental run gamemode survival @a[team=janguru]
 execute at @a[team=janguru] in game:experimental run clear @a[team=janguru]
+execute at @a[team=janguru] in game:experimental run xp set @a[team=janguru] 0 levels
+execute at @a[team=janguru] in game:experimental run xp set @a[team=janguru] 0 points
 execute at @a[team=janguru] in game:experimental run tp @a[team=janguru] 2 101.5 3
 execute at @a[team=janguru] in game:experimental run spawnpoint @a[team=janguru] 2 101 3
 ##運営タグ(チームに所属していない)
