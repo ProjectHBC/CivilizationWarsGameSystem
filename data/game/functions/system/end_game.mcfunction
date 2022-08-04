@@ -4,8 +4,14 @@ effect clear @a[team=sougen]
 effect clear @a[team=janguru]
 
 ##持ち物削除
-execute at @a[team=sougen] in game:experimental run clear @a[team=sougen]
-execute at @a[team=janguru] in game:experimental run clear @a[team=janguru]
+execute at @a[team=sougen] run clear @a[team=sougen]
+execute at @a[team=janguru] run clear @a[team=janguru]
+
+##経験値削除
+execute at @a[team=sougen] run xp set @a[team=sougen] 0 levels
+execute at @a[team=sougen] run xp set @a[team=sougen] 0 points
+execute at @a[team=janguru] run xp set @a[team=janguru] 0 levels
+execute at @a[team=janguru] run xp set @a[team=janguru] 0 points
 
 ##チームから参加者を空にする
 team empty sougen
