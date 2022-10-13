@@ -16,6 +16,8 @@ execute at @s[tag=Admin] run scoreboard objectives remove team_number
 execute at @s[tag=Admin] run scoreboard objectives remove deathcount
 #execute at @s[tag=Admin] run scoreboard objectives remove lastcount
 execute at @s[tag=Admin] run scoreboard objectives remove victory_team
+###スニーク時間を検知
+#execute at @a[tag=Admin] run scoreboard objectives remove sneak_time
 
 ##ボスバーを削除
 execute at @s[tag=Admin] run bossbar remove sys:timer

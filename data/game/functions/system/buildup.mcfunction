@@ -17,6 +17,8 @@ scoreboard objectives add team_number dummy "チームの人数"
 scoreboard objectives add deathcount deathCount
 #scoreboard objectives add lastcount dummy
 scoreboard objectives add victory_team dummy
+###スニーク時間を検知
+#scoreboard objectives add sneak_time minecraft.custom:minecraft.sneak_time
 
 ##ボスバーを作成
 bossbar add sys:timer "timer"
