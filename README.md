@@ -4,7 +4,7 @@
 [![release](https://img.shields.io/github/release/iruru1111/CivilizationWarsGameSystem?logo=github)](https://github.com/iruru1111/CivilizationWarsGameSystem/releases)
 [![stars](https://img.shields.io/github/stars/iruru1111/CivilizationWarsGameSystem?logo=github)](https://github.com/iruru1111/CivilizationWarsGameSystem/stargazers)
 [![downloads](https://img.shields.io/github/downloads/iruru1111/CivilizationWarsGameSystem/total?logo=github)](https://github.com/iruru1111/CivilizationWarsGameSystem/releases/latest)  
-[日本語](https://github.com/iruru1111/CivilizationWarsGameSystem/blob/master/README.md)/[English]()<!--README_en.mdを作った時にリンク実装-->
+[日本語](https://github.com/iruru1111/CivilizationWarsGameSystem/blob/master/README.md)/[English](https://github.com/iruru1111/CivilizationWarsGameSystem/blob/master/README_EN.md)
 ## CivilizationWars
 
 このプロジェクトは[Hegadel](https://github.com/iruru1111/CivilizationWarsGameSystem/blob/master/README.md#%E9%96%8B%E7%99%BA%E3%83%81%E3%83%BC%E3%83%A0%E3%82%B3%E3%83%A9%E3%83%9C%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC)によって考案され、[iruru1111](https://github.com/iruru1111/CivilizationWarsGameSystem/blob/master/README.md#%E9%96%8B%E7%99%BA%E3%83%81%E3%83%BC%E3%83%A0%E3%82%B3%E3%83%A9%E3%83%9C%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC)を開発責任者とする[開発チーム](https://github.com/iruru1111/CivilizationWarsGameSystem/blob/master/README.md#%E9%96%8B%E7%99%BA%E3%83%81%E3%83%BC%E3%83%A0%E3%82%B3%E3%83%A9%E3%83%9C%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC)によって作られました。
