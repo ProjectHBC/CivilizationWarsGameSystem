@@ -20,8 +20,8 @@ Minecraft Server 1.18.2
 
 ## ライセンス
 
-現在ライセンスは書かれていませんが、今後GPL[GNU General Public License]を用いる予定です。  
-気が変わったらMIT Licenseになるかもしれません。
+このソフトウェアは、MITライセンスのもとで公開されています。詳しくは[LICENSE](https://github.com/iruru1111/CivilizationWarsGameSystem/blob/master/LICENSE)をご覧ください。  
+These codes are released under the MIT License, see [LICENSE](https://github.com/iruru1111/CivilizationWarsGameSystem/blob/master/LICENSE).
 
 ## 開発チーム(コラボレーター)
 * [Hegadel](https://twitter.com/Hegadel_ONR) - 発案責任者  
