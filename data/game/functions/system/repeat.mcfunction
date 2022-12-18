@@ -47,6 +47,7 @@ team leave @a[scores={deathcount=1}]
 ##全員のデスカウントを0に設定(これで元通り?)
 scoreboard players set @a deathcount 0
 ###チーム勝利数の実績作るなら使えないけどそれめんどくさそうだから作らないだろうな
+###死んだプレイヤーをスペクテイターモードに切り替えるタイミングをtimerで範囲指定
 
 ##タイマーが0の時に0に設定(停止後終了ループ) ##自動でブレイクしないか？
 ##execute if entity @e[tag=Timekeeper,scores={timer=0}] run scoreboard players set @e[tag=Timekeeper] timer 0
@@ -56,3 +57,6 @@ scoreboard players set @a deathcount 0
 #execute if entity @e[tag=Timekeeper,scores={timer=1..}] run function game:system/wall/create_fill_wall_gen
 ##Timekeeperのtimerが0のとき
 execute if entity @e[tag=Timekeeper,scores={timer=..0}] run function game:system/wall/break_fill_wall_gen
+
+##AdminItemをVoidItemに変換(実質削除)します
+function game:system/convert_adminitem_to_voiditem
