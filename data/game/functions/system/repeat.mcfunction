@@ -60,3 +60,6 @@ execute if entity @e[tag=Timekeeper,scores={timer=..0}] run function game:system
 
 ##AdminItemをVoidItemに変換(実質削除)します
 function game:system/convert_adminitem_to_voiditem
+
+##魔法系
+#scoreboard objectives

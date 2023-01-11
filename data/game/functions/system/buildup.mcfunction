@@ -20,6 +20,9 @@ scoreboard objectives add victory_team dummy
 ###スニーク時間を検知
 #scoreboard objectives add sneak_time minecraft.custom:minecraft.sneak_time
 
+##魔法系
+#scoreboard objectives add fire1 minecraft.used:minecraft.carrot_on_a_stick
+
 ##ボスバーを作成
 bossbar add sys:timer "timer"
 bossbar add sys:begin "begin" 

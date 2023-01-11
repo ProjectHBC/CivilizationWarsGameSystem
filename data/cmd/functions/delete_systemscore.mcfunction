@@ -19,6 +19,9 @@ execute as @s[tag=Admin] run scoreboard objectives remove victory_team
 ###スニーク時間を検知
 #execute as @a[tag=Admin] run scoreboard objectives remove sneak_time
 
+##魔法系
+#execute as @s[tag=Admin] run scoreboard objectives remove fire1
+
 ##ボスバーを削除
 execute as @s[tag=Admin] run bossbar remove sys:timer
 execute as @s[tag=Admin] run bossbar remove sys:begin
