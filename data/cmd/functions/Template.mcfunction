@@ -1,11 +1,11 @@
+# This
 #
+# This is template.
 #
-# 
-#
-# @within 
+# within   
 
-##テンプレート
+# テンプレート
 # cmd
 
-##権限エラー
-tellraw @s[tag=!Admin] {"text": "System -> 運営タグを持っていないため実行できませんでした","color": "red"}
+# 権限エラー
+    tellraw @s[tag=!Admin] {"text": "System -> 運営タグを持っていないため実行できませんでした","color": "red"}
