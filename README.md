@@ -11,7 +11,8 @@
 
 ## 動作環境
 
-Minecraft Server 1.18.2 
+Minecraft Server 1.20.4  
+(今後、MC1.21に対応予定です)  
 <!--専用プラグインurl等-->
 
 ## Wiki
