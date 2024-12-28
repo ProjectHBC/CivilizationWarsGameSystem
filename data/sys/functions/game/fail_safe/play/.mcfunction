@@ -11,7 +11,7 @@
     #effect clear?
 
 # ゲームを解凍させる(権限レベル3以上が必要です)
-    tick unfreeze
+    #tick unfreeze
 
 # メッセージ
     tellraw @a [{"text": "System -> ","color": "green"},{"text": "ゲームを再開しました"}]

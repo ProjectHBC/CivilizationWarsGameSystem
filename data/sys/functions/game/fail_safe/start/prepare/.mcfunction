@@ -1,4 +1,4 @@
-#> sys:game/fail_safe/start/prepare
+#> sys:game/fail_safe/start/prepare/
 #
 # ゲームを開始するのに必要な準備
 #
@@ -13,4 +13,4 @@
 # Timer.Phaseは0
     data modify storage config: Timer.Phase set value 0
 # Dimensionは設定されているか
-    execute unless data storage config: {Dimension: {}} run return run data modify storage api: Error.Id set value "Dimension.UndefinedError"
+    execute unless function sys:game/fail_safe/start/prepare/dimension run return run data modify storage api: Error.Id set value "Dimension.UndefinedError"

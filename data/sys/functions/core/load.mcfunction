@@ -11,4 +11,4 @@
     execute as @a[team=Admin] run function sys:core/assets/start_menu
 
 # バージョンが変更されていた場合、もしくは存在しない場合、buildupをロードする
-    #execute unless data storage global: {Version:"v0.2-beta"} run function sys:core/assets/buildup
+    #execute unless data storage global: {Version: "v0.2-beta"} run function sys:core/assets/buildup

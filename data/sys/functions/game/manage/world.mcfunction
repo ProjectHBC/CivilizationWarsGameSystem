@@ -5,8 +5,7 @@
 # @within function sys:game/fail_safe/start/
 
 # 呼び出し
-    function sys:api/world_settings/world/ with storage config: Dimension
-    function sys:api/world_settings/player/ with storage config: Dimension
+    function sys:game/manage/select_dimension
     execute store result score #Timer Global run data get storage config: Timer.Max
 
 # ゲーム開始アナウンス

@@ -11,7 +11,7 @@
     #effect?
 
 # ゲームを凍結させる(権限レベル3以上が必要です)
-    tick freeze
+    #tick freeze
 
 # メッセージ
     tellraw @a [{"text": "System -> ","color": "green"},{"text": "ゲームを一時停止しました"}]

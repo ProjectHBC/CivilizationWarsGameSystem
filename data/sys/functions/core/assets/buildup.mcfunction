@@ -65,4 +65,6 @@ function sys:core/assets/set_constant
     data modify storage api: Error.Id set value ""
     data modify storage api: Error.UniqueId set value ""
 # config:
+    data modify storage config: Timer.Max set value 0
     data modify storage config: Timer.Phase set value 0
+    data modify storage config: Dimension set value "None"

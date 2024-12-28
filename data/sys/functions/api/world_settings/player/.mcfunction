@@ -5,4 +5,4 @@
 # @api
 
 # 代入
-    $execute in $(Dimension) run function sys:api/world_settings/player/api {Team1: "@a[team=TeamA]", Team2: "@a[team=TeamB]"}
+    $execute in $(Dimension) run function sys:api/world_settings/player/api {Selector1: "@a[team=TeamA]", Selector2: "@a[team=TeamB]"}
